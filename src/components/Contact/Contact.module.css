@@ -1,0 +1,30 @@
+.contactBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 300px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.contactField {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  color: black;
+}
+
+.icon {
+  margin-right: 5px;
+}
+.contactBtn {
+  display: flex;
+  padding: 5px 5px;
+  border: 2px solid rgba(48, 45, 45, 0.623);
+  border-radius: 5px;
+  color: rgba(27, 26, 26, 0.815);
+}
